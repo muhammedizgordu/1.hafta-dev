@@ -1,0 +1,28 @@
+package odev2;
+
+public class arrays {
+
+	public static void main(String[] args) {
+		// DİZİLER
+	
+		String[] ogrenciler = new String[3];
+
+		ogrenciler[0] = "Engin";
+		ogrenciler[1] = "Selin";
+		ogrenciler[2] = "Ahmet";
+		
+		for (int i = 0; i < ogrenciler.length; i++) {
+			
+			System.out.println(ogrenciler[i]);
+		}
+		
+		for(String ogrenci:ogrenciler) {
+			
+			System.out.println(ogrenci);
+		}
+		
+		
+		
+	}
+
+}
